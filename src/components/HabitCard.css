@@ -1,0 +1,8 @@
+.habit-card {
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.habit-card:hover {
+  transform: scale(1.02);
+}

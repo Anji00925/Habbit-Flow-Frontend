@@ -1,0 +1,31 @@
+.dashboard-wrapper {
+  background: linear-gradient(to right, #f0f4ff, #ffffff);
+  min-height: 100vh;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.no-habits-msg {
+  font-size: 1.1rem;
+  color: #6c757d;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 2px dashed #dee2e6;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
